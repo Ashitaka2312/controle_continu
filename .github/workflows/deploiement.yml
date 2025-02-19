@@ -1,0 +1,30 @@
+name: Déployer sur Netlify
+on:
+  push:
+    branches:
+      - main  
+  pull_request:
+    branches:
+      - main 
+jobs:
+  deploy:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: Récupérer le code du dépôt
+        uses: actions/checkout@v3
+      - name: Installer Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18  
+      - name: Installer les dépendances
+        run: npm install  
+      - name: Construire le projet
+        run: npm run build  
+      - name: Déployer sur Netlify
+        uses: nwtgck/actions-netlify@v1.2.3
+        with:
+          publish-dir: ./build  
+          production-deploy: true  
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}  
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }} 
