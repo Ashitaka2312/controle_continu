@@ -11,14 +11,9 @@ Ce projet est destiné à valider les connaissances en DevOps des élèves de 3�
 
 ## Test Results
 ![Test Status](https://github.com/Ashitaka2312/controle_continu/actions/workflows/test.yml/badge.svg)
-![License](https://img.shields.io/github/license/Ashitaka2312/controle_continu)
-![Stars](https://img.shields.io/github/stars/Ashitaka2312/controle_continu)
-![Forks](https://img.shields.io/github/forks/Ashitaka2312/controle_continu)
-![Followers](https://img.shields.io/github/followers/Ashitaka2312)
 ![Open Issues](https://img.shields.io/github/issues/Ashitaka2312/controle_continu)
 ![Closed Issues](https://img.shields.io/github/issues-closed/Ashitaka2312/controle_continu)
 ![Pull Requests](https://img.shields.io/github/issues-pr/Ashitaka2312/controle_continu)
-![Dependencies](https://img.shields.io/librariesio/github/Ashitaka2312/controle_continu)
 ![Repo Size](https://img.shields.io/github/repo-size/Ashitaka2312/controle_continu)
 ![Code Size](https://img.shields.io/github/languages/code-size/Ashitaka2312/controle_continu)
 ![Build Status](https://github.com/Ashitaka2312/controle_continu/actions/workflows/test.yml/badge.svg)
