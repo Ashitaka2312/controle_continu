@@ -21,8 +21,10 @@ jobs:
       - name: Construire le projet
         run: npm run build  
       - name: Déployer sur Netlify
-        uses: nwtgck/actions-netlify@v1.2.3
-        with:
+  uses: nwtgck/actions-netlify@v1.2.3
+  with:
+    publish-dir: ./dist
+    production-deploy: true
           publish-dir: ./build  
           production-deploy: true  
         env:
