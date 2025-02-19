@@ -22,3 +22,7 @@ Ce projet est destiné à valider les connaissances en DevOps des élèves de 3�
 ![Repo Size](https://img.shields.io/github/repo-size/Ashitaka2312/controle_continu)
 ![Code Size](https://img.shields.io/github/languages/code-size/Ashitaka2312/controle_continu)
 ![Build Status](https://github.com/Ashitaka2312/controle_continu/actions/workflows/test.yml/badge.svg)
+
+## Déploiement
+
+Le projet est déployé sur [Netlify]([https://votre-url-netlify.netlify.app](https://musical-longma-e5f64b.netlify.app/)).
