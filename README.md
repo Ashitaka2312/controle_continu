@@ -25,4 +25,4 @@ Ce projet est destiné à valider les connaissances en DevOps des élèves de 3�
 
 ## Déploiement
 
-Le projet est déployé sur [Netlify]([https://votre-url-netlify.netlify.app](https://musical-longma-e5f64b.netlify.app/)).
+Le projet est déployé sur [Netlify] (https://musical-longma-e5f64b.netlify.app/).
