@@ -32,4 +32,3 @@ jobs:
           publish-dir: ./build  # Remplacez ici si c'est ./dist
           production-branch: main
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          deploy-token: ${{ secrets.NETLIFY_TOKEN }}
